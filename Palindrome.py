@@ -9,3 +9,4 @@ class palindrome:
 res=palindrome
 res.palindrome1("radar")
 print('aswindid')
+print('aswindid')
