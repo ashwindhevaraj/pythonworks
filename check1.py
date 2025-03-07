@@ -295,6 +295,16 @@ class check2:
 check=check2
 check.readfile()
 
+#iterator learning
+a=["asw","cec",21,14,"mon"]
+k=iter(a)
+print(next(k))
+print(next(k))
+
+o/p asw
+cec
+internally for loops implement above
+
 
 
  
