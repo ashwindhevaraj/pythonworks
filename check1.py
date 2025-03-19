@@ -305,7 +305,46 @@ o/p asw
 cec
 internally for loops implement above
 
+#polymorphism learning
+class vehicle:
+    def __init__(self,name,model):
+        self.name=name
+        self.model=model
+    def move(self):
+        print("Move Man")
+class bus(vehicle):
+    pass
+class scooty(vehicle):
+    def move(self):
+        print("scooty moved here")
+        
+class car(vehicle):
+    def move(self):
+        print("car moved here")
+        
+v1=vehicle("vehicle","rawmodel")
+b1=bus("Airbus","Ashokleyland")
+s1=scooty("TVSscooty","vespa")
+c1=car("car","tatanano")
 
+for x in (v1,b1,s1,c1):
+    print(x.name)
+    print(x.model)
+    x.move()
+
+o/p
+vehicle
+rawmodel
+Move Man
+Airbus
+Ashokleyland
+Move Man
+TVSscooty
+vespa
+scooty moved here
+car
+tatanano
+car moved here
 
  
   
