@@ -301,9 +301,9 @@ k=iter(a)
 print(next(k))
 print(next(k))
 
-o/p asw
+""" o/p asw
 cec
-internally for loops implement above
+internally for loops implement above """
 
 #polymorphism learning
 class vehicle:
@@ -332,7 +332,7 @@ for x in (v1,b1,s1,c1):
     print(x.model)
     x.move()
 
-o/p
+""" o/p
 vehicle
 rawmodel
 Move Man
@@ -344,7 +344,7 @@ vespa
 scooty moved here
 car
 tatanano
-car moved here
+car moved here """
 
  
   
