@@ -271,42 +271,42 @@ f3=filecases
 f3.printfile()
 f3.filecopy()'''
 
-class check2:
-  def readfile():
-    upper=0
-    lower=0
-    vowels=0
-    consonant=0
-    y=open("aswintext.txt","r")
-    k=y.read()
-    for i in k:
-      if i.isalpha():
-        if i.isupper():
-          upper+=1
-        else:
-          lower+=1
-        if i in ['A','E','I','O','U','a','e','i','o','u']:
-          vowels+=1
-        else:
-          consonant+=1
-    print("uppercase ",upper,"lowercase ",lower,"vowels ",vowels,"consonant ",consonant)
+# class check2:
+#   def readfile():
+#     upper=0
+#     lower=0
+#     vowels=0
+#     consonant=0
+#     y=open("aswintext.txt","r")
+#     k=y.read()
+#     for i in k:
+#       if i.isalpha():
+#         if i.isupper():
+#           upper+=1
+#         else:
+#           lower+=1
+#         if i in ['A','E','I','O','U','a','e','i','o','u']:
+#           vowels+=1
+#         else:
+#           consonant+=1
+#     print("uppercase ",upper,"lowercase ",lower,"vowels ",vowels,"consonant ",consonant)
 
 
-check=check2
-check.readfile()
+# check=check2
+# check.readfile()
 
 #iterator learning
-a=["asw","cec",21,14,"mon"]
-k=iter(a)
-print(next(k))
-print(next(k))
+# a=["asw","cec",21,14,"mon"]
+# k=iter(a)
+# print(next(k))
+# print(next(k))
 
 """ o/p asw
 cec
 internally for loops implement above """
 
 #polymorphism learning
-class vehicle:
+""" class vehicle:
     def __init__(self,name,model):
         self.name=name
         self.model=model
@@ -330,7 +330,7 @@ c1=car("car","tatanano")
 for x in (v1,b1,s1,c1):
     print(x.name)
     print(x.model)
-    x.move()
+    x.move() """
 
 """ o/p
 vehicle
@@ -346,7 +346,16 @@ car
 tatanano
 car moved here """
 
- 
+
+# import datetime
+# x=datetime.datetime.now()
+# print(x)
+# print(x.year)
+# print(x.strftime("%B"))
+# o/p
+# 2025-04-01 09:27:11.420141
+# 2025
+# April 
   
     
    
