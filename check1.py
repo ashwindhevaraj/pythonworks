@@ -358,9 +358,16 @@ car moved here """
 # April 
   
     
-   
-  
-    
+# import json
+# x={"name":"ash","age":21,"dept":"IT"}
+# y=json.dumps(x,indent=4,sort_keys=True)
+# print(y)
+# o/p
+# {
+#     "age": 21,
+#     "dept": "IT",
+#     "name": "ash"
+# }
 
   
   
