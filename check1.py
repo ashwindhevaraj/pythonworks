@@ -370,8 +370,12 @@ car moved here """
 # }
 
   
-  
-  
+# file2=open("aswinoutput.txt","a")
+# file2.write("appending data to the last today april 10") 
+# for x in file2:
+#   print(x)
+# print(file2.read())
+# file2.close()
   
   
 
